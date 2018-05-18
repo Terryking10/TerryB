@@ -1,0 +1,32 @@
+#gridcontainer {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas: "menu menu"
+                       "grotefoto grotefoto"
+                       "foto text"
+                       "foto2 tekst2"
+                       "footer footer";
+  grid-gap: 10px;
+  border: 1px solid red;
+}
+#menu{
+  grid-area: menu;
+}
+#grotefoto{
+  grid-area: grotefoto;
+}
+#foto{
+  grid-area: foto;
+}
+#foto2{
+  grid-area: foto2;
+}
+
+ .text{
+  grid-area: text;
+}
+
+#tekst2{
+  grid-area: tekst2;
+}

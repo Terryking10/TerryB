@@ -1,0 +1,42 @@
+#menu {
+  width: 100%;
+  background-color: white;
+  padding: 0px;
+
+}
+#menu>div{
+  display: inline-block;
+}
+#menu>ul {
+  list-style-type: none;
+  margin: 0px;
+}
+#menu>ul>li {
+ display: inline-block;
+}
+#menu>ul>li>a {
+  text-decoration: none;
+  color: black;
+}
+#menu>ul>li>a:hover {
+  background-color: lightgrey;
+  padding: 8px 16px 8px 16px;
+  
+}
+#right {
+  float: right;
+  margin: 20px;
+}
+home {
+  width: 100%;
+}
+.a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+.a:hover {
+   background-color: lightgrey;
+  padding: 8px 16px 8px 16px;
+}

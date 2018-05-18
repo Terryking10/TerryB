@@ -1,0 +1,19 @@
+#gridcontainer {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas: "menu menu"
+                       "fototekst fototekst"
+                       "footer footer";
+  grid-gap: 10px;
+  border: 1px solid black;
+}
+#menu{
+  grid-area: menu;
+}
+#tekstfoto{
+  grid-area: tekstfoto;
+}
+#footer{
+  grid-area: footer;
+}
